@@ -1,11 +1,11 @@
 import BeansDivider from '../BeansDivider/BeansDivider';
-import Header from '../Header/Header';
+import Navigation from '../Navigation/Navigation';
 import './Promo.scss';
 
 export default function Promo() {
 	return (
-		<div className='promo'>
-			<Header/>
+		<section className='promo'>
+			<Navigation color='white'/>
 			<div className="container">
 			<h1 className='promo__title'>Everything You Love About Coffee</h1>
 			<BeansDivider color='white' />
@@ -15,6 +15,6 @@ export default function Promo() {
 			<a href="#" className="promo__more">More</a>
 			</div>
 		
-		</div>
+		</section>
 	)
 }

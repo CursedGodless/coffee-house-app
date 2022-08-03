@@ -1,0 +1,45 @@
+.coffee-cards-filter {
+	display: flex;
+	width: 693px;
+	justify-content: space-between;
+	margin: 0 auto;
+
+	&__btns {
+		.filter-label {
+			margin-right: 35px;
+		}
+	}
+}
+
+.filter-input {
+	width: 180px;
+	height: 30px;
+	border: none;
+	background: #ffffff;
+	box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+	border-radius: 4px;
+	padding: 6px 36px;
+
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 17px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.filter-label {
+	margin-right: 19px;
+}
+
+.filter-btn {
+	width: 75px;
+	height: 30px;
+
+	background: #ffffff;
+	box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+	border-radius: 4px 0px 0px 4px;
+	border: none;
+	&:nth-of-type(2) {
+		margin: 0 5px;
+	}
+}

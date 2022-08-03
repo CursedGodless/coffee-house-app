@@ -1,7 +1,8 @@
 .coffee-cards__wrapper {
 	display: flex;
-	gap: 60px 71px ;
+	gap: 60px 70px ;
 	margin-top: 39px;
+	flex-wrap: wrap;
 }
 
 .coffee-card {

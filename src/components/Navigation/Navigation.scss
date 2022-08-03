@@ -1,5 +1,6 @@
 .navigation {
 	width: 355px;
+
 	&__menu {
 		list-style: none;
 		display: flex;
@@ -21,6 +22,9 @@
 		display: block;
 	}
 	&_white {
+		position: absolute;
+		left: 145px;
+		top: 30px;
 		a {
 			color: #fff;
 		}

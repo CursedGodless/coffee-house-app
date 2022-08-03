@@ -1,5 +1,5 @@
-import BeansDivider from '../components/BeansDivider/BeansDivider';
-import Navigation from '../components/Navigation/Navigation';
+import BeansDivider from '../BeansDivider/BeansDivider';
+import Navigation from '../Navigation/Navigation';
 import './Footer.scss';
 
 export default function Footer() {
