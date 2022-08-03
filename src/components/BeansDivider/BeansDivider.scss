@@ -1,0 +1,33 @@
+.beans-divider {
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	margin: 0 auto;
+	img {
+		display: block;
+		width: 29px;
+		height: 29px;
+	}
+	&::before,
+	&::after {
+		content: "";
+		display: block;
+		width: 60px;
+		height: 2px;
+	}
+
+	&_white {
+		&:before,
+		&::after {
+			background-color: #fff;
+		}
+	}
+	&_black {
+		&:before,
+		&::after {
+			background-color: #000;
+		}
+	}
+}
